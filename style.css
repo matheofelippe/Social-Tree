@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
@@ -10,22 +10,22 @@
 :root {
     --body-bg-color: #FAF7FD;
     --purple: #BB99DD;
-  }
+}
 
-main{
+main {
     text-align: center;
 }
 
-p{
+p {
     font-weight: 300;
 }
 
-.profilePicture{
+.profilePicture {
     padding: 126px 0 15px;
     width: 200px;
 }
 
-ul{
+ul {
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -33,23 +33,33 @@ ul{
     padding: 33px 0 68px;
 }
 
-ul li{
-    border: 2px solid var(--purple);
+ul li {
+
     border-radius: 4px;
-    padding: 12px 140px;
+    cursor: pointer;
 }
 
-ul li a{
+ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 13px 140px;
+    background: var(--body-bg-color);
+    border: 2px solid var(--purple);
     text-decoration: none;
     font-weight: 500;
 }
 
-.btnLinks{
+ul li a:hover {
+    background: #e8e5eb;
+}
+
+.btnLinks {
     display: flex;
     justify-content: center;
 }
 
-.socialLinks{
+.socialLinks {
     display: flex;
     flex-direction: row;
     justify-content: center;
